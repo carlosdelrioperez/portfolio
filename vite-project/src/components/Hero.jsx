@@ -32,7 +32,7 @@ export default function Hero() {
           href="https://www.linkedin.com/in/carlos-del-río-pérez-90932b30b"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-800 dark:text-gray-100 border border-gray-500 rounded-full hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-black transition-all duration-300 shadow-sm"
+          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-800 dark:text-gray-100 border border-gray-500 rounded-full hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-black transition-all duration-300 shadow-sm hover:-translate-y-2 transition-all duration-500 overflow-hidden border border-gray-200 dark:border-neutral-700"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ export default function Hero() {
           href="https://github.com/carlosdelrioperez"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-800 dark:text-gray-100 border border-gray-500 rounded-full hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-black transition-all duration-300 shadow-sm"
+          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-800 dark:text-gray-100 border border-gray-500 rounded-full hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-black transition-all duration-300 shadow-sm hover:-translate-y-2 transition-all duration-500 overflow-hidden border border-gray-200 dark:border-neutral-700"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ export default function Hero() {
           href="mailto:carlosdelrioperez@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-800 dark:text-gray-100 border border-gray-500 rounded-full hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-black transition-all duration-300 shadow-sm"
+          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-800 dark:text-gray-100 border border-gray-500 rounded-full hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-black transition-all duration-300 shadow-sm hover:-translate-y-2 transition-all duration-500 overflow-hidden border border-gray-200 dark:border-neutral-700"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
