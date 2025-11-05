@@ -2,10 +2,9 @@ import { useEffect, useState } from "react";
 
 const navItems = [
   { title: "Inicio", label: "Inicio", url: "#" },
+  { title: "Sobre mí", label: "sobre-mi", url: "#sobre-mi" },
   { title: "Experiencia", label: "experiencia", url: "#experiencia" },
   { title: "Proyectos", label: "proyectos", url: "#proyectos" },
-  { title: "Sobre mí", label: "sobre-mi", url: "#sobre-mi" },
-  { title: "Contacto", label: "contacto", url: "mailto:miduga@gmail.com" },
 ];
 
 export default function Header() {
@@ -18,10 +17,9 @@ export default function Header() {
   }, []);
 
   const handleClick = (e, url) => {
-    // Si el enlace empieza por "#", hacemos scroll suave
     if (url.startsWith("#")) {
       e.preventDefault();
-      const targetId = url.slice(1); // quitar "#"
+      const targetId = url.slice(1);
       if (targetId === "") {
         window.scrollTo({ top: 0, behavior: "smooth" });
       } else {
@@ -31,7 +29,6 @@ export default function Header() {
         }
       }
     } else {
-      // Para enlaces externos (ej: mailto)
       window.location.href = url;
     }
   };

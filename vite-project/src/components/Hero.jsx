@@ -4,27 +4,21 @@ export default function Hero() {
       id="inicio"
       className="relative flex flex-col items-center justify-center min-h-screen text-center px-6"
     >
-      <div className="absolute inset-0 -z-10 bg-gray-50 dark:bg-gray-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(217,216,255,0.5),rgba(255,255,255,0.9))] dark:bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]" />
-
       <img
         src="/images/IMG-20230717-WA0032.jpg"
         alt="Foto de Carlos del Río Pérez"
-        className="w-40 h-40 rounded-full object-cover mb-6 shadow-lg border border-gray-300 dark:border-gray-700"
+        className="w-40 h-40 rounded-full object-cover mb-6 shadow-lg border border-gray-700"
       />
 
-      <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-        <span className="text-neutral-700 dark:text-neutral-300 tracking-tight">
-          Carlos del Río Pérez
-        </span>
+      <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
+        Carlos del Río Pérez
       </h1>
-      <h1 className="text-5xl md:text-4xl text-gray-900 dark:text-white mb-4">
-        <span className="text-neutral-700 dark:text-neutral-300 tracking-tight">
-          Software Developer
-        </span>
-      </h1>
+      <h2 className="text-4xl md:text-5xl text-white mb-4">
+        Software Developer
+      </h2>
 
-      <p className="max-w-2xl text-lg md:text-xl text-gray-600 dark:text-gray-300">
-        FullStack React & SpringBoot
+      <p className="max-w-2xl text-lg md:text-xl text-gray-300">
+        Fullstack React & SpringBoot
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4 justify-center">
@@ -32,7 +26,7 @@ export default function Hero() {
           href="https://www.linkedin.com/in/carlos-del-río-pérez-90932b30b"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-800 dark:text-gray-100 border border-gray-500 rounded-full hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-black transition-all duration-300 shadow-sm hover:-translate-y-2 transition-all duration-500 overflow-hidden border border-gray-200 dark:border-neutral-700"
+          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-100 border border-gray-600 rounded-full hover:bg-gray-700 hover:text-white transition-all duration-300 shadow-sm hover:-translate-y-1"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +43,7 @@ export default function Hero() {
           href="https://github.com/carlosdelrioperez"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-800 dark:text-gray-100 border border-gray-500 rounded-full hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-black transition-all duration-300 shadow-sm hover:-translate-y-2 transition-all duration-500 overflow-hidden border border-gray-200 dark:border-neutral-700"
+          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-100 border border-gray-600 rounded-full hover:bg-gray-700 hover:text-white transition-all duration-300 shadow-sm hover:-translate-y-1"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -63,10 +57,10 @@ export default function Hero() {
         </a>
 
         <a
-          href="mailto:carlosdelrioperez@gmail.com"
+          href="mailto:carlosdelrioperez00@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-800 dark:text-gray-100 border border-gray-500 rounded-full hover:bg-gray-800 hover:text-white dark:hover:bg-gray-200 dark:hover:text-black transition-all duration-300 shadow-sm hover:-translate-y-2 transition-all duration-500 overflow-hidden border border-gray-200 dark:border-neutral-700"
+          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-100 border border-gray-600 rounded-full hover:bg-gray-700 hover:text-white transition-all duration-300 shadow-sm hover:-translate-y-1"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -81,54 +75,25 @@ export default function Hero() {
       </div>
 
       <div className="mt-12 flex flex-wrap justify-center gap-8 text-3xl">
-        <div className="relative group">
-          <i className="devicon-react-original colored hover:scale-110 transition-transform duration-200"></i>
-          <span className="absolute bottom-full mb-2 hidden group-hover:block text-xs bg-gray-800 text-white dark:bg-gray-200 dark:text-black px-2 py-1 rounded">
-            React
-          </span>
-        </div>
-        <div className="relative group">
-          <i className="devicon-spring-original colored hover:scale-110 transition-transform duration-200"></i>
-          <span className="absolute bottom-full mb-2 hidden group-hover:block text-xs bg-gray-800 text-white dark:bg-gray-200 dark:text-black px-2 py-1 rounded">
-            SpringBoot
-          </span>
-        </div>
-        <div className="relative group">
-          <i className="devicon-nodejs-plain colored hover:scale-110 transition-transform duration-200"></i>
-          <span className="absolute bottom-full mb-2 hidden group-hover:block text-xs bg-gray-800 text-white dark:bg-gray-200 dark:text-black px-2 py-1 rounded">
-            Node.js
-          </span>
-        </div>
-        <div className="relative group">
-          <i className="devicon-angularjs-plain colored hover:scale-110 transition-transform duration-200"></i>
-          <span className="absolute bottom-full mb-2 hidden group-hover:block text-xs bg-gray-800 text-white dark:bg-gray-200 dark:text-black px-2 py-1 rounded">
-            Angular
-          </span>
-        </div>
-        <div className="relative group">
-          <i className="devicon-java-plain colored hover:scale-110 transition-transform duration-200"></i>
-          <span className="absolute bottom-full mb-2 hidden group-hover:block text-xs bg-gray-800 text-white dark:bg-gray-200 dark:text-black px-2 py-1 rounded">
-            Java
-          </span>
-        </div>
-        <div className="relative group">
-          <i className="devicon-javascript-plain colored hover:scale-110 transition-transform duration-200"></i>
-          <span className="absolute bottom-full mb-2 hidden group-hover:block text-xs bg-gray-800 text-white dark:bg-gray-200 dark:text-black px-2 py-1 rounded">
-            JavaScript
-          </span>
-        </div>
-        <div className="relative group">
-          <i className="devicon-html5-plain colored hover:scale-110 transition-transform duration-200"></i>
-          <span className="absolute bottom-full mb-2 hidden group-hover:block text-xs bg-gray-800 text-white dark:bg-gray-200 dark:text-black px-2 py-1 rounded">
-            HTML5
-          </span>
-        </div>
-        <div className="relative group">
-          <i className="devicon-css3-plain colored hover:scale-110 transition-transform duration-200"></i>
-          <span className="absolute bottom-full mb-2 hidden group-hover:block text-xs bg-gray-800 text-white dark:bg-gray-200 dark:text-black px-2 py-1 rounded">
-            CSS3
-          </span>
-        </div>
+        {[
+          { name: "React", icon: "devicon-react-original colored" },
+          { name: "SpringBoot", icon: "devicon-spring-original colored" },
+          { name: "Node.js", icon: "devicon-nodejs-plain colored" },
+          { name: "Angular", icon: "devicon-angularjs-plain colored" },
+          { name: "Java", icon: "devicon-java-plain colored" },
+          { name: "JavaScript", icon: "devicon-javascript-plain colored" },
+          { name: "HTML5", icon: "devicon-html5-plain colored" },
+          { name: "CSS3", icon: "devicon-css3-plain colored" },
+        ].map((tec, i) => (
+          <div key={i} className="relative group">
+            <i
+              className={`${tec.icon} hover:scale-110 transition-transform duration-200`}
+            ></i>
+            <span className="absolute bottom-full mb-2 hidden group-hover:block text-xs bg-gray-800 text-white px-2 py-1 rounded">
+              {tec.name}
+            </span>
+          </div>
+        ))}
       </div>
     </section>
   );
