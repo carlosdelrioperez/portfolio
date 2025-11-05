@@ -1,4 +1,4 @@
-export default function Experiencia() {
+export default function experience() {
   return (
     <section
       id="experiencia"

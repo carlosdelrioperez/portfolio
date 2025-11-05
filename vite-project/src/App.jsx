@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "@fontsource/onest";
 import Hero from "./components/Hero";
-import Experiencia from "./components/Experiencia";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
 
       <main className="flex-1">
         <Hero></Hero>
-        <Experiencia></Experiencia>
+        <Experience></Experience>
         <Projects></Projects>
       </main>
 
