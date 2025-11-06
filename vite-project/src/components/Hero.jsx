@@ -18,7 +18,7 @@ export default function Hero() {
       </h2>
 
       <p className="max-w-2xl text-lg md:text-xl text-gray-300">
-        Fullstack React & SpringBoot
+        FullStack React & SpringBoot
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4 justify-center">
@@ -71,6 +71,22 @@ export default function Hero() {
             <path d="M12 12.713l11.985-9.713H.015L12 12.713zm0 2.575L.015 5.5V18.5c0 .828.672 1.5 1.5 1.5h20.97c.828 0 1.5-.672 1.5-1.5V5.5L12 15.288z" />
           </svg>
           Gmail
+        </a>
+
+        <a
+          href="/delRioPerezCarlosCV.pdf"
+          download="delRioPerezCarlosCV.pdf"
+          className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-gray-100 border border-gray-600 rounded-full hover:bg-gray-700 hover:text-white transition-all duration-300 shadow-sm hover:-translate-y-1"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            className="w-5 h-5"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 20h14v-2H5v2zm7-18v12l5-5h-3V4h-4v5H7l5 5z" />
+          </svg>
+          Descargar CV
         </a>
       </div>
 

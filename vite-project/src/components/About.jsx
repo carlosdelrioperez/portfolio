@@ -9,8 +9,7 @@ export default function About() {
       <p className="max-w-3xl text-gray-300 text-lg leading-relaxed">
         ¡Hola! Soy{" "}
         <span className="font-semibold text-white">Carlos del Río</span>,
-        Ingeniero de Software y Desarrollador{" "}
-        <span className="font-medium">FullStack</span>. Me apasiona crear
+        Ingeniero de Software y Desarrollador FullStack. Me apasiona crear
         soluciones funcionales y actualmente desarrollo proyectos personales
         para seguir aprendiendo y consolidar mis habilidades en diversas
         tecnologías.
