@@ -9,11 +9,22 @@ export default function Projects() {
       tipo: ["FullStack"],
     },
     {
-      titulo: "Porfolio",
-      descripcion: "Este mismo portfolio, creado con React + Tailwind CSS.",
-      imagen: "/images/352shots_so.png",
+      titulo: "URL-Shortener",
+      descripcion:
+        "Aplicación web Fullstack que permite acortar URLs con un tiempo de expiración (1 min). Incluye un historial de URLs con notificaciones de expiración y funcionalidad de copiar/borrar enlaces.",
+      imagen: "/images/474shots_so.png",
+      tecnologias: ["React", "TailwindCSS", "Node.js", "Express.js", "MongoDB"],
+      tipo: ["Fullstack"],
+      url: "https://url-shortenercdrp.netlify.app",
+    },
+    {
+      titulo: "Galería de cuadros",
+      descripcion:
+        "Aplicación web frontend que muestra una galería interactiva de cuadros, permitiendo explorar las obras de manera visual y responsiva.",
+      imagen: "/images/507shots_so.png",
       tecnologias: ["React", "TailwindCSS"],
       tipo: ["Frontend"],
+      url: "https://angelariostudio.netlify.app/",
     },
     {
       titulo: "MyFilms",
@@ -39,11 +50,25 @@ export default function Projects() {
             className="bg-gray-800/70 border border-gray-700/60 shadow-lg backdrop-blur-sm rounded-2xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 overflow-hidden"
           >
             <div className="relative">
-              <img
-                src={proyecto.imagen}
-                alt={proyecto.titulo}
-                className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110 rounded-2xl"
-              />
+              {proyecto.url ? (
+                <a
+                  href={proyecto.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={proyecto.imagen}
+                    alt={proyecto.titulo}
+                    className="w-full h-48 object-cover transition-transform duration-500 hover:scale-102 rounded-2xl"
+                  />
+                </a>
+              ) : (
+                <img
+                  src={proyecto.imagen}
+                  alt={proyecto.titulo}
+                  className="w-full h-48 object-cover rounded-2xl"
+                />
+              )}
               <span className="absolute top-3 left-3 bg-black/50 text-white text-xs font-medium px-3 py-1 rounded-full backdrop-blur-sm">
                 {proyecto.tipo}
               </span>
