@@ -9,6 +9,20 @@ export default function Projects() {
       tipo: ["FullStack"],
     },
     {
+      titulo: "Spotify Tracker",
+      descripcion:
+        "Aplicación web Fullstack que muestra datos sobre tu música en Spotify, como los artistas o canciones más escuchadas en un tiempo determinado.",
+      imagen: "/images/195shots_so.png",
+      tecnologias: [
+        "React",
+        "TailwindCSS",
+        "Node.js",
+        "Express.js",
+        "SpotifyAPI",
+      ],
+      tipo: ["FullStack"],
+    },
+    {
       titulo: "URL-Shortener",
       descripcion:
         "Aplicación web Fullstack que permite acortar URLs con un tiempo de expiración (1 min). Incluye un historial de URLs con notificaciones de expiración y funcionalidad de copiar/borrar enlaces.",
